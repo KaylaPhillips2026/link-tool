@@ -1,0 +1,111 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+  color: #242424;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: #004987;
+}
+
+.subtitle {
+  margin: 0 0 20px 0;
+  color: #616161;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input[type="file"] {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #004987;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #c8c6c4;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background: #003a6b;
+}
+
+.status {
+  margin-top: 12px;
+  font-style: italic;
+  color: #616161;
+  min-height: 18px;
+}
+
+.results {
+  margin-top: 20px;
+  border-top: 1px solid #e1dfdd;
+  padding-top: 16px;
+}
+
+.results h2 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.summary-line {
+  margin-bottom: 6px;
+}
+
+.summary-line .ok {
+  color: #107c10;
+  font-weight: 600;
+}
+
+.summary-line .fail {
+  color: #d13438;
+  font-weight: 600;
+}
+
+#missList {
+  margin-top: 10px;
+  max-height: 220px;
+  overflow-y: auto;
+  background: #f3f2f1;
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+#missList .miss-item {
+  font-family: Consolas, monospace;
+  font-size: 12px;
+  padding: 2px 0;
+  color: #605e5c;
+}
+
+#missList .miss-heading {
+  font-weight: 600;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #242424;
+  margin-top: 6px;
+}

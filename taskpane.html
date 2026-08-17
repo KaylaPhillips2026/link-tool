@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>JLL Link Tool</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+  <link rel="stylesheet" href="taskpane.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>JLL Link Tool</h1>
+    <p class="subtitle">Populate this report from a Forbury model</p>
+
+    <div class="field">
+      <label for="fileInput">Forbury model (.xlsx or .xlsm)</label>
+      <input type="file" id="fileInput" accept=".xlsx,.xlsm" />
+    </div>
+
+    <button id="runButton" disabled>Run Link Tool</button>
+
+    <div id="status" class="status"></div>
+
+    <div id="results" class="results" hidden>
+      <h2>Results</h2>
+      <div class="summary-line">
+        <span id="fieldsSummary"></span>
+      </div>
+      <div class="summary-line">
+        <span id="tablesSummary"></span>
+      </div>
+      <div id="missList"></div>
+    </div>
+  </div>
+
+  <script src="taskpane.js"></script>
+</body>
+</html>
