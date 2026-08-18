@@ -12,12 +12,12 @@
   <DefaultLocale>en-AU</DefaultLocale>
   <DisplayName DefaultValue="JLL Link Tool" />
   <Description DefaultValue="Populates valuation report bookmarks from a Forbury model." />
-  <IconUrl DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/assets/icon-80.png" />
-  <SupportUrl DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN" />
+  <IconUrl DefaultValue="https://kaylaphillips2026.github.io/link-tool/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://kaylaphillips2026.github.io/link-tool/assets/icon-80.png" />
+  <SupportUrl DefaultValue="https://kaylaphillips2026.github.io/link-tool" />
 
   <AppDomains>
-    <AppDomain>https://REPLACE-WITH-YOUR-HOSTING-DOMAIN</AppDomain>
+    <AppDomain>https://kaylaphillips2026.github.io/link-tool</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -31,7 +31,7 @@
   </Requirements>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/taskpane.html" />
+    <SourceLocation DefaultValue="https://kaylaphillips2026.github.io/link-tool" />
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
@@ -80,13 +80,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/assets/icon-16.png" />
-        <bt:Image id="Icon.32x32" DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/assets/icon-32.png" />
-        <bt:Image id="Icon.80x80" DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/assets/icon-80.png" />
+        <bt:Image id="Icon.16x16" DefaultValue="https://kaylaphillips2026.github.io/link-tool" />
+        <bt:Image id="Icon.32x32" DefaultValue="https://kaylaphillips2026.github.io/link-tool" />
+        <bt:Image id="Icon.80x80" DefaultValue="https://kaylaphillips2026.github.io/link-tool" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN" />
-        <bt:Url id="Taskpane.Url" DefaultValue="https://REPLACE-WITH-YOUR-HOSTING-DOMAIN/taskpane.html" />
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://kaylaphillips2026.github.io/link-tool" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://kaylaphillips2026.github.io/link-tooll" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="JLL Link Tool is ready" />
